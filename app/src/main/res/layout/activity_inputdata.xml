@@ -38,7 +38,7 @@
             android:layout_marginEnd="30dp"
             android:backgroundTint="@android:color/transparent"
             android:hint="Nama"
-            android:inputType="textEmailAddress"
+            android:inputType="text"
             android:padding="15dp"
             android:textColor="@android:color/white"
             android:textColorHint="@android:color/white" />
@@ -76,7 +76,7 @@
             android:layout_marginEnd="30dp"
             android:backgroundTint="@android:color/transparent"
             android:hint="Alamat"
-            android:inputType="textEmailAddress"
+            android:inputType="text"
             android:padding="15dp"
             android:textColor="@android:color/white"
             android:textColorHint="@android:color/white" />
@@ -95,7 +95,7 @@
             android:layout_marginEnd="30dp"
             android:backgroundTint="@android:color/transparent"
             android:hint="Telpon"
-            android:inputType="textEmailAddress"
+            android:inputType="textPhonetic"
             android:padding="15dp"
             android:textColor="@android:color/white"
             android:textColorHint="@android:color/white" />
@@ -114,7 +114,7 @@
             android:layout_marginEnd="30dp"
             android:backgroundTint="@android:color/transparent"
             android:hint="Tempat/Tgl Lahir"
-            android:inputType="textEmailAddress"
+            android:inputType="text"
             android:padding="15dp"
             android:textColor="@android:color/white"
             android:textColorHint="@android:color/white" />
@@ -126,6 +126,25 @@
             android:layout_marginTop="4dp"
             android:layout_marginEnd="30dp"
             android:background="#B1B1B1" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@android:color/transparent"
+            android:padding="15dp"
+            android:id="@+id/spinner">
+
+        </Spinner>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="30dp"
+            android:background="#B1B1B1" />
+
 
         <RelativeLayout
             android:layout_width="match_parent"
